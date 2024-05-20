@@ -1,0 +1,3 @@
+longeur:10
+largeur:30
+propagation:0.6

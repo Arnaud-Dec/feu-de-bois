@@ -1,3 +1,7 @@
+import Modele.bois;
+import Modele.type_bois;
+import Vue.Vue;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -59,7 +63,7 @@ public class Controlleur {
                                 }
                             }
                         }
-                        b.cendre(); // Convertir le bois en cendre après avoir propagé le feu
+                        b.cendre(); // Convertir le Modele.bois en cendre après avoir propagé le feu
                     }
                 }
                 for (bois b : nouveauxFeux) {

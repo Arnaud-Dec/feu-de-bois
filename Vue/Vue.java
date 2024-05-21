@@ -1,3 +1,8 @@
+package Vue;
+
+import Modele.bois;
+import Modele.type_bois;
+
 import java.util.ArrayList;
 
 

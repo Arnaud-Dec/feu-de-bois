@@ -1,7 +1,11 @@
+package Modele;
+
+
+
 public class bois {
-    type_bois type;
-    int h;
-    int l;
+    public type_bois type;
+    public int h;
+    public int l;
 
     public bois( int h, int l) {
         this.type = type_bois.normal;

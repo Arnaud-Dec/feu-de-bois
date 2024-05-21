@@ -1,3 +1,5 @@
+package Controlleur;
+
 import Modele.bois;
 import Modele.type_bois;
 import Vue.Vue;
@@ -69,7 +71,6 @@ public class Controlleur {
                 for (bois b : nouveauxFeux) {
                     b.feu(); // Allumer les nouveaux feux
                 }
-                vue.afficherBois(boisList, H, L);
                 vue.afficherBois(boisList, H, L);
                 if (!feuExists) {
                     System.out.println();
